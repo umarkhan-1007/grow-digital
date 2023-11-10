@@ -4,13 +4,14 @@ nav{
     display: flex;
     width: 100%;
     height: 15vh;
-    background-color:#A1BFFF;
+    background-color:#FBFBFB;
+    // color: black;
     justify-content: space-between;
     align-items: center;
     position: static;
     top: 0%;
     z-index: 10;
-    border-bottom: 1px solid black;
+    // border-bottom: 1px solid black;
     // border-bottom: 1px solid #016A70;
 
     // >h1{
@@ -30,7 +31,7 @@ nav{
         display: flex;
         justify-content: flex-end;
         >a{
-            color:white;
+            color:black;
             margin: 2.5rem;
             font-family:"Roboto";
             font-weight: 600;

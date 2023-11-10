@@ -2,7 +2,7 @@
   width: 20px;
   height: 20px;
   background-color: black;
-  position: absolute;
+  // position: absolute;
   border-radius: 50px;
   filter: invert(0);
 }
@@ -10,7 +10,7 @@
 .home {
   width: 100%;
   height: 100vh;
-  background-color: #a1bfff;
+  background-color: #FBFBFB;
   border-radius: 0 0 200px 200px;
   position: relative;
 
@@ -19,10 +19,10 @@
     height: 100%;
     position: absolute;
     display: flex;
-    align-items: flex-end;
-    flex-direction: column;
-    justify-content: center;
-    padding: 4rem;
+    align-items:center;
+    // flex-direction: row;
+    justify-content: space-around;
+    padding: 4rem -10rem;
     text-transform: uppercase;
 
     > h1 {
@@ -38,15 +38,77 @@
       width: 40%;
       text-align: center;
     }
+    .image-con{
+      width: 50rem;
+      height: 46rem;
+      overflow: hidden;
+      // background-color: red;
+      object-fit: cover;
+      // margin-right: -15rem;
+      img{
+        height: 100%;
+        border-radius: 0 0 200px 0px;
+      }
+    
+    }
+    .l-side{
+     display: flex;
+     justify-content: center ;
+     flex-direction: column;
+     align-items: flex-start;
+     padding-left: 8rem;
+      height: 100%;
+      margin-top: 3rem;
+      .title-con{
+        margin-bottom: 1rem;
+        height: 4rem;
+        text-align: center;
+        // line-height: 2px;
+        h1{
+          margin-top: -8rem;
+          font-size: 10rem;
+          text-transform: uppercase;
+          font-weight: 200;
+          line-height: 100px;
+          color: #C93C21;
+        }
+        h2{
+          font-size: 5.3rem;
+          font-weight: 700;
+          text-transform: uppercase;
+          letter-spacing: 8px;
+          color: #0A6868;
+        }
+        
+      }
+      p{
+        width: 100%;
+        margin-bottom: 5rem;
+        padding: 0 0.5rem;
+        font-size: 15px;
+      text-align: start;
+      font-weight: 400;
+      opacity: 0.8;
+      // color: #018D8E;
+      text-transform: capitalize;
+      }
+      button{
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        text-transform: uppercase;
+        background-color:  #0A6868;
+        color: white;
+        margin: 0 0.5rem ;
+        cursor: pointer;
+      }
+       }
+    
   }
   &::before {
     content: " ";
     width: 100%;
     height: 100%;
     position: absolute;
-    background: no-repeat center/auto
-      url("https://img.freepik.com/free-vector/marketing-illustartion-concept-idea-business-growth-media_613284-3313.jpg?w=1380&t=st=1699166272~exp=1699166872~hmac=5d74a4341e783a8bfd94fd339b933f702c8506a5ee7034eb953df3948c1a6389");
-    // filter: blur(1px);
     object-position: center;
     object-fit: cover;
     border-radius: 0 0 200px 200px;
@@ -74,6 +136,7 @@
       width: 40%;
     }
   }
+  
 }
 
 .home3 {

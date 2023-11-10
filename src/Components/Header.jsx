@@ -2,7 +2,7 @@ import React from 'react'
 
 import {Link} from "react-router-dom"
 import { HashLink } from 'react-router-hash-link';
-import logo from "../assets/logo growdigital white.png"
+import logo from "../assets/logo growdigital black.png"
 
 
 import "../Style/Header.scss"
